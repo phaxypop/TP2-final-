@@ -1,0 +1,63 @@
+html {
+  /*Pour ralentir le défilememt de la page*/
+  scroll-behavior: smooth;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body,
+section,
+h1 {
+  margin: 0;
+}
+h1 {
+  font-size: 3rem;
+}
+body {
+  text-align: center;
+  background-image: url("https://images3.alphacoders.com/109/1090801.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+section {
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+}
+section h1,
+h2 {
+  background-color: rgba(0, 0, 0, 0.418);
+}
+
+nav {
+  /*Positionne le menu dans la partie supérieur de l'écran. 
+  Avec le positionnement fixed, le référentiel est la fenêtre */
+  position: fixed;
+  top: 3px;
+  right: 0;
+  /* Configuration du conteneur flex*/
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 75%;
+}
+nav a {
+  display: block;
+  flex: 0 1 100px;
+  text-decoration: none;
+  top: 4px;
+  font-size: large;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+#inscription form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 100px;
+}

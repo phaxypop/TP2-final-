@@ -1,0 +1,36 @@
+Pour afficher la console git
+1- Sélectionne le dossier principale de voytre TP avec touche «droite de la souris»
+2- Sélectionner « ouvrir dans le terminal intégré »
+3- Créer un dêpot avec la commande « git init »
+4- Dans l'explorateur pour voir le dossier « .git » 
+qu'on appelle le « dépôt » 
+il faut sélectionner « afficchage/élément masqué» pour voir le dossier « .git »
+Si la commande git n'est pas reconnu il faut installer git
+Chercher « git download » dans google pour trouver :
+https://git-scm.com/download/win vous télécharger la version windows 64-bit
+vous lancer l'instalateur qui se trouve dans le dossier téléchargement.
+Fermer Visual studio code pour le relancer ce qui permettrs à Visual studio code d'accepter Git
+pour voir l'état de votre version
+git status
+Si les fichiers aparaisent en rouge : il faut les indexer
+« git add --all »
+En de nouveau git status vous contaterez que les fichiers sont vert
+Une fois que tous les fichiers modifié passent au vert
+on peut faire un commit 
+« git commit -m "s13 début du TP2"
+Créer un dépot dans votre compte GitHub 
+Il faut d'abord sélectionner « repository »
+Cliquer sur « new »
+Entrer le nom du « repository » en français nom du « dépot »
+On veut créer un nom le plus simple poossible ex: « 1W1 »
+On sélectionne pour l'instant un dépot « public » à partir du radio bouton
+on sauvgarde le dépot
+
+Vous revenz à votre terminal « Visual studio code » et entrer les commandes suivantes
+Changer le nom de la branche principale: « git branch -m main »
+Créer un alias pour l'adresse du serveur distant « github »
+« git git remote add origin https://github.com/phaxypop/TP2.git »
+Pour vérifier que l'alias a été bien créé
+« git remote -v »
+pour créer un readme.md
+https://markdown

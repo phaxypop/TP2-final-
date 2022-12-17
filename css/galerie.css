@@ -1,0 +1,16 @@
+.fig__galerie {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  flex: 0 0 300;
+}
+
+figure img {
+  transition: all 1s;
+}
+figure img:hover {
+  padding: 100px;
+  transform: rotate(10deg) scale(1);
+  /*transition: transform 2s, background-color 2s;*/
+  /*transition: transform 1s;*/
+}

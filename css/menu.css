@@ -1,0 +1,41 @@
+#chk-burger {
+  display: none;
+}
+#chk-burger:checked ~ .menu {
+  transform: translate(40px);
+}
+#chk-burger:checked ~ #burger {
+  transform: rotate(90deg);
+}
+#burger {
+  position: absolute;
+  transform: rotate(0deg);
+  transition: transform 0.25s;
+  z-index: 1;
+  top: 0;
+  left: 0;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #aaa;
+  background-color: rgba(77, 82, 45, 0.545);
+  width: 900px;
+  transform: translate(-5000px);
+  transition: transform 0.5s;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  left: 0;
+}
+
+.menu a {
+  display: block;
+  text-decoration: none;
+  font-size: large;
+  color: blue;
+}
+.menu a :visited {
+  color: blue;
+}
+a:hover {
+  color: #aaa;
+}

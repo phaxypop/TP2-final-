@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>lab 9 étape 3</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/tableau.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/galerie.css" />
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/footer.css">
+  <body>
+    <input type="checkbox"  id="chk-burger" />
+    <label for="chk-burger" id="burger"
+    ><img
+    src="https://s2.svgbox.net/hero-solid.svg?ic=menu&color=fff"
+    width="32"
+    height="32" alt="menu"
+    /></label>
+    
+    <nav class="menu">
+      <a href="#accueil">Accueil</a>
+      <a href="#galerie">Galerie</a>
+      <a href="#inscription">Inscription</a>
+      <a href="#video">Vidéo</a>
+      <a href="#boutique">Boutique</a>
+      <a href="#pied-page">Pied de page</a>
+    </nav>
+    <!--(section>h1>lorem2)*5-->
+    <section id="accueil">
+      <h1>The Last of Us part II</h1>
+      <h2>Auteur: Syphax Mokraoui</h2>
+      <p>1W1 - Mise en page Web - Collège de Maisonneuve</p>
+    </section>
+    <section id="galerie">
+      <h1>Galerie du jeu The Last of Us part II</h1>
+      <figure class="fig__galerie">
+        <figure>
+          <img src="images/tlou2-1.png" alt="tlou2-1">
+        </figure>
+        <figure>
+          <img src="images/tlou2-2.png" alt="tlou2-2">
+        </figure>
+        <figure>
+          <img src="images/tlou2-3.png" alt="tlou2-3">
+        </figure>
+        <figure>
+          <img src="images/tlou2-4.png" alt="tlou2-4">
+        </figure>
+        <figure>
+          <img src="images/tlou2-5.png" alt="tlou2-5">
+        </figure>
+        <figure>
+          <img src="images/tlou2-6.png" alt="tlou2-6">
+        </figure>
+        <figure>
+          <img src="images/tlou2-7.png" alt="tlou2-7">
+        </figure>
+        <figure>
+          <img src="images/tlou2-8.png" alt="tlou2-8">
+        </figure>
+      </figure>
+    </section>
+    <!-- //////////////////////////////////////  Inscription -->
+    <section id="inscription">
+      <h1>Inscription</h1>
+      <form>
+        <label
+          >Nom
+          <input
+            placeholder="Entrez votre nom"
+            type="text"
+            
+            id="txtNom"
+          />
+        </label>
+        <label
+          >Prénom
+          <input type="text"  id="txtPrenom" />
+        </label>
+        <label 
+          >Courriel
+          <input type="email"  id="txtEmail" />
+        </label>
+        <label 
+          >Mot de passe
+          <input type="password"  id="txtPassword" />
+        </label>   
+        <label 
+          >Soumettre
+          <input type="submit"  id="button" />
+        </label>   
+      </form>
+    <section id="video">
+      <h2>Bande d'annonce officiel de l'hisoire de The Last of Us part II</h2>
+      <iframe width="555" height="310" src="https://www.youtube.com/embed/vhII1qlcZ4E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    
+    <!--//////////////tableau-->
+    <section id="boutique">
+      <h1>Prix des différentes versions du jeu</h1>
+      <table class="tableau">
+        <tr>
+          <th>Édition</th>
+          <th>Prix</th>
+         
+        </tr>
+        <tr>
+          <td><a href="https://www.playstation.com/en-ca/games/the-last-of-us-part-ii/">Standard (Dégital)</a> </td>
+          <td>53.49$</td>
+       
+        </tr>
+        <tr>
+          <td><a href="https://www.amazon.ca/LAST-US-PART-II-DISCS/dp/B07DJRFSDF/ref=sr_1_1_sspa?keywords=the+last+of+us+part+2&qid=1671133121&sprefix=the+last+of+us%2Caps%2C84&sr=8-1-spons&psc=1&smid=A2DRNRSQTYCOYY&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyQVU0UE5BWU5aNVgmZW5jcnlwdGVkSWQ9QTAzMzU3NzMxMDJVTFJENFo0MDdMJmVuY3J5cHRlZEFkSWQ9QTA1ODMwMDYzSDRIVFRYSVUyTExBJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==">Standard (Physique)</a> </td>
+          <td>58.98$</td>
+       
+        </tr>
+        <tr>
+          <td><a href="https://store.playstation.com/en-ca/product/UP9000-CUSA07820_00-THELASTOFUSP2DLX">Édition deluxe(Dégital)</a> </td>
+          <td>66.99$</td>
+       
+        </tr>
+        <tr>
+          <td><a href="https://www.shopville.ca/products/the-last-of-us-part-ii-special-edition-playstation-4?variant=32491012128853&currency=CAD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&utm_campaign=gs-2018-08-30&utm_source=google&utm_medium=smart_campaign&gclid=EAIaIQobChMI0KLCuLL8-wIVEYnICh0itgTUEAQYASABEgKx0PD_BwE">Édition spécial</a> </td>
+          <td>159.99$</td>
+       
+        </tr>
+        <tr>
+          <td><a href="https://www.shopville.ca/products/the-last-of-us-part-ii-collector-s-edition-playstation-4?variant=32444858105941&currency=CAD&utm_medium=product_sync&utm_source=google&utm_content=sag_organic&utm_campaign=sag_organic&utm_campaign=gs-2018-08-30&utm_source=google&utm_medium=smart_campaign&gclid=EAIaIQobChMI3Ze26rL8-wIV6WJyCh2aYQLeEAQYASABEgJd6PD_BwE">Édition collector</a> </td>
+          <td>379.99$</td>
+        </tr>
+      </table>
+    </section>
+    <!--//////////// pied de page-->
+    <footer>
+      <section id="pied-page">
+      <section class="footer__dl">
+        <dd>
+          <dt>3 800, rue Sherbrooke Est Montréal (Québec) H1X 2A2 | 514 254-7131</dt>
+        </dd>
+        <dd>
+          <dt>| Accueil | Galerie | Inscription | Vidéo | Boutique |</dt>
+        </dd>
+        <dd>
+          <dt>Technique d'intégration multimédia</dt>
+        </dd>        
+      </section>
+      <!-- fin section -->
+
+      <section class="util">
+        <div class="sociaux">
+          <img
+            src="https://s2.svgbox.net/social.svg?ic=facebook&color=fff"
+            width="16"
+            height="16"
+            alt=""
+          />
+          <img
+            src="https://s2.svgbox.net/social.svg?ic=github&color=fff"
+            width="16"
+            height="16"
+            alt=""
+          />
+          <img
+            src="https://s2.svgbox.net/social.svg?ic=instagram&color=fff"
+            width="16"
+            height="16"
+            alt=""
+          />
+          <img
+            src="https://s2.svgbox.net/social.svg?ic=messenger&color=fff"
+            width="16"
+            height="16"
+            alt=""
+          />
+          <img
+            src="https://s2.svgbox.net/social.svg?ic=paypal&color=fff"
+            width="16"
+            height="16"
+            alt=""
+          />
+          <img
+            src="https://s2.svgbox.net/social.svg?ic=twitter&color=fff"
+            width="16"
+            height="16"
+            alt=""
+          />
+          <img
+            src="https://s2.svgbox.net/social.svg?ic=youtube&color=fff"
+            width="16"
+            height="16"
+            alt=""
+          />
+          <img
+            src="https://s2.svgbox.net/social.svg?ic=wikipedia&color=fff"
+            width="16"
+            height="16"
+            alt=""
+          />
+        </div>
+      </section>
+      <dd>
+          <dt>Avis de confidentialité | Privacy Notice</dt>
+        </dd>
+    </section>
+    </footer>
+</body>
+</html>
